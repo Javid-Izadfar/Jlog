@@ -1,1 +1,9 @@
 /* Add custom CSS here */
+
+.no-layer{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;}
+
+#jArchTitle h1{
+  margin: 14px 16px 0;
+  line-height: 1.63;}
