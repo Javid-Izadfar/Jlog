@@ -2,8 +2,24 @@
 
 .no-layer{
   padding-top: 0 !important;
-  padding-bottom: 0 !important;}
+  padding-bottom: 0 !important}
 
 #jArchTitle h1{
   margin: 14px 16px 0;
-  line-height: 1.63;}
+  line-height: 1.63}
+
+.navside{top: 62px !important}
+
+.navside-body{padding: 12px;}
+
+.navside .primary-action{font-weight: 400 !important;}
+
+/* Joqd Overwrites */
+.joqd.stack{list-style: none;}
+
+.joqd.elevate-0,
+.joqd.elevate-0-hover:hover,
+.joqd.elevate-0-click:active {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important}
