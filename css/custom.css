@@ -6,6 +6,8 @@ main{padding-top: 62px;}
   padding-top: 0 !important;
   padding-bottom: 0 !important}
 
+.no-margin{margin: 0;}
+
 #jArchTitle h1{
   margin: 14px 16px 0;
   line-height: 1.63}
@@ -20,6 +22,13 @@ main{padding-top: 62px;}
 .navside .primary-action > .gorbeh{
   font-size: 30px;
   padding-left: 12px;}
+
+.navside-footer{
+  position: absolute;
+  right: 0; bottom: 62px;
+  width: 100%;
+  font-size: 12px;
+  padding: 24px;}
 
 footer .loader-wrapper{height: 124px;}
 
@@ -81,6 +90,8 @@ footer .loader-wrapper .path {
 }
 
 /* Joqd Overwrites */
+.navside-container{position: relative;}
+
 .joqd.stack{list-style: none;}
 
 .joqd.elevate-0,
