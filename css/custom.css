@@ -19,6 +19,65 @@
   font-size: 30px;
   padding-left: 12px;}
 
+footer .loader-wrapper{height: 124px;}
+
+footer .loader-wrapper .loader{
+  position: absolute;
+  width: 80px; height: 80px;
+  left: 0; right: 0;
+  margin: auto;}
+
+footer .loader-wrapper .circular{
+   animation: rotate 2s linear infinite;
+   height: 80px; width: 80px;
+   position: relative;}
+
+
+footer .loader-wrapper .path {
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: dash 1.5s ease-in-out infinite,
+             color 6s ease-in-out infinite;}
+
+@keyframes rotate{
+ 100%{
+   -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+       -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+           transform: rotate(360deg);
+ }
+}
+@keyframes dash{
+ 0%{
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+ }
+ 50%{
+  stroke-dasharray: 89,200;
+  stroke-dashoffset: -35;
+ }
+ 100%{
+  stroke-dasharray: 89,200;
+  stroke-dashoffset: -124;
+ }
+}
+@keyframes color{
+  100%, 0%{
+    stroke: #2196f3;
+  }
+  40%{
+    stroke: #f44336;
+  }
+  66%{
+    stroke: #ffeb3b;
+  }
+  80%, 90%{
+    stroke: #4caf50;
+  }
+}
+
 /* Joqd Overwrites */
 .joqd.stack{list-style: none;}
 
