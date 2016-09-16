@@ -89,6 +89,11 @@ footer .loader-wrapper .path {
   }
 }
 
+main article,
+main footer{padding: 12px 64px}
+
+main article p{line-height: 1.8;}
+
 /* Joqd Overwrites */
 .navside-container{position: relative;}
 
