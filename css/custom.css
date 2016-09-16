@@ -1,5 +1,7 @@
 /* Add custom CSS here */
 
+main{padding-top: 62px;}
+
 .no-layer{
   padding-top: 0 !important;
   padding-bottom: 0 !important}
