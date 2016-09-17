@@ -98,7 +98,13 @@ main article #share a{margin: 0 10px 10px 0}
 
 main article #share a i{padding: 10px}
 
-main footer .h5{margin-top: 20px;}
+main footer .h5{margin-top: 6px;}
+
+main footer #mySocials a{
+  font-size: 12px;
+  margin-left: 6px}
+
+main footer #mySocials a i{padding: 7px}
 
 /* Joqd Overwrites */
 .navside-container{position: relative;}
