@@ -107,6 +107,8 @@ main #about-me #mySocials a{
 
 main #about-me #mySocials a i{padding: 7px}
 
+.go-to-top{cursor: pointer}
+
 /* Joqd Overwrites */
 .navside-container{position: relative;}
 
