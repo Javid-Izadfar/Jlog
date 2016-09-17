@@ -94,6 +94,8 @@ main footer{padding: 12px 64px}
 
 main article p{line-height: 1.8;}
 
+main footer .h5{margin-top: 20px;}
+
 /* Joqd Overwrites */
 .navside-container{position: relative;}
 
