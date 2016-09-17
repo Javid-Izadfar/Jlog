@@ -89,22 +89,23 @@ footer .loader-wrapper .path {
   }
 }
 
-main article,
-main footer{padding: 12px 64px}
+main #post-content,
+main #about-category,
+main #about-me{padding: 12px 64px}
 
-main article p{line-height: 1.8;}
+main #post-content p{line-height: 1.8;}
 
-main article #share a{margin: 0 10px 10px 0}
+main #post-content #share a{margin: 0 10px 10px 0}
 
-main article #share a i{padding: 10px}
+main #post-content #share a i{padding: 10px}
 
-main footer .h5{margin-top: 6px;}
+main #about-me .h5{margin-top: 6px;}
 
-main footer #mySocials a{
+main #about-me #mySocials a{
   font-size: 12px;
   margin-left: 6px}
 
-main footer #mySocials a i{padding: 7px}
+main #about-me #mySocials a i{padding: 7px}
 
 /* Joqd Overwrites */
 .navside-container{position: relative;}
